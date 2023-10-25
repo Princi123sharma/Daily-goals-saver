@@ -93,7 +93,7 @@ form{
 }
 
 
-@media (max-width:600px) {
+@media (width<=600px) {
 
 
     body{
@@ -102,12 +102,14 @@ form{
 
 
     input,textarea,button{
-        width:40vw;
+        width:70vw;
         border: 2px solid #000;
+        padding: 4vw;
+        font-size: 5vw;
     }
 
     button{
-        width:20vw;
+        width:40vw;
        border: none;
     }
     button:hover{
@@ -116,13 +118,13 @@ form{
     }
 
     .container{
-        width: 70vw;
-        background-color: #ffffff1e;
+        width: 90vw;
+        background-color: #ffffff31;
     }
 
     .task{
         
-        width:50vw;
+        width:70vw;
         
         display: flex;
         align-items: center;
@@ -139,12 +141,17 @@ form{
       align-items: center;
       justify-content: center;
       border: none;
+      transition: all ease 2s;
 
 
    }
    .btn2:hover{
     background-color: #000;
     color: #fff;
+   }
+   .container h1{
+    margin-top: 18vw;
+    font-family: Tilt Neon;
    }
 
 
